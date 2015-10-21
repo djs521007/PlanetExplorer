@@ -1,7 +1,7 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
+// ID:2441625 Liu Lei
 // Finish time:
 public class PlanetExplorer {
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -11,8 +11,14 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		Coordinates coordinates;
+		
 	}
 	
+	public PlanetExplorer(Coordinates exploreCoordinates) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)

@@ -1,0 +1,23 @@
+FileOpenedAction 1445433427979 Coordinates.java 562 6 5 0
+RefactoringAction 1445433485376 Coordinates.java ADD Direction direction/2 FIELD
+RefactoringAction 1445433487386 Coordinates.java RENAME direction/2=>Direction getdirection FIELD
+RefactoringAction 1445433491394 Coordinates.java RENAME getdirection=>Direction getdirection() METHOD
+RefactoringAction 1445433522464 Coordinates.java ADD Private List FIELD
+RefactoringAction 1445433532473 Coordinates.java REMOVE List FIELD
+RefactoringAction 1445433558533 Coordinates.java ADD List<Obstacle> get FIELD
+RefactoringAction 1445433562047 Coordinates.java RENAME get=>List<Obstacle> getObsta FIELD
+RefactoringAction 1445433563557 Coordinates.java RENAME getObsta=>List<Obstacle> getObstacle FIELD
+RefactoringAction 1445433567567 Coordinates.java RENAME getObstacle=>List<Obstacle> getObstacle() METHOD
+RefactoringAction 1445433656207 Coordinates.java ADD List<Obstacle> obstacle FIELD
+RefactoringAction 1445433692240 Coordinates.java ADD void setob FIELD
+RefactoringAction 1445433695250 Coordinates.java RENAME setob=>void setobstacle FIELD
+RefactoringAction 1445433701264 Coordinates.java RENAME setobstacle=>void setbstacle FIELD
+RefactoringAction 1445433702274 Coordinates.java RENAME setbstacle=>void setObstacle FIELD
+RefactoringAction 1445433705789 Coordinates.java RENAME setObstacle=>void setObstacle() METHOD
+RefactoringAction 1445433723330 Coordinates.java RENAME setObstacle()=>void setObstacle(List<Obstacle>) METHOD
+RefactoringAction 1445433772944 Coordinates.java ADD boolean found FIELD
+RefactoringAction 1445433776954 Coordinates.java RENAME found=>boolean foundObstacle FIELD
+RefactoringAction 1445433887269 Coordinates.java RENAME sety(Point)=>void setY(Point) METHOD
+RefactoringAction 1445433892785 Coordinates.java RENAME gety()=>Point get() METHOD
+RefactoringAction 1445433893800 Coordinates.java RENAME get()=>Point getY() METHOD
+EditAction 1445433983713 Coordinates.java 961 9 12 0
