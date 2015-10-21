@@ -33,4 +33,9 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+
+	public Object getCoordinates() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
