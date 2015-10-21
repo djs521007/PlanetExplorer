@@ -21,3 +21,7 @@ RefactoringAction 1445433887269 Coordinates.java RENAME sety(Point)=>void setY(P
 RefactoringAction 1445433892785 Coordinates.java RENAME gety()=>Point get() METHOD
 RefactoringAction 1445433893800 Coordinates.java RENAME get()=>Point getY() METHOD
 EditAction 1445433983713 Coordinates.java 961 9 12 0
+RefactoringAction 1445433997122 Coordinates.java ADD boolean move FIELD
+RefactoringAction 1445433998631 Coordinates.java RENAME move=>boolean move() METHOD
+RefactoringAction 1445434006147 Coordinates.java RENAME move()=>boolean move(Direction) METHOD
+EditAction 1445434053083 Coordinates.java 1017 10 12 0

@@ -43,6 +43,8 @@ public class Coordinates {
 		setDirection(directionValue);
 		setObstacle(obstaclesValue);
 	}
+	protected boolean move(Direction directionValue){
+	}
 
 
 }
