@@ -27,3 +27,21 @@ RefactoringAction 1445434006147 Coordinates.java RENAME move()=>boolean move(Dir
 EditAction 1445434053083 Coordinates.java 1017 10 12 0
 CompilationAction 1445434053211 Coordinates.java
 EditAction 1445434223415 PlanetExplorer.java 1591 4 3 0
+RefactoringAction 1445434259501 Direction.java ADD Direction get FIELD
+RefactoringAction 1445434262512 Direction.java RENAME get=>Direction getba FIELD
+RefactoringAction 1445434264023 Direction.java RENAME getba=>Direction getback FIELD
+RefactoringAction 1445434268535 Direction.java RENAME getback=>Direction getBackward FIELD
+RefactoringAction 1445434271553 Direction.java RENAME getBackward=>Direction getBackwardDirection FIELD
+RefactoringAction 1445434272564 Direction.java RENAME getBackwardDirection=>Direction getBackwardDirection() METHOD
+RefactoringAction 1445434346050 Direction.java ADD Direction getValue FIELD
+RefactoringAction 1445434353460 Direction.java REMOVE getValue FIELD
+RefactoringAction 1445434363494 Direction.java ADD Direction get FIELD
+RefactoringAction 1445434367019 Direction.java RENAME get=>Direction getValue FIELD
+RefactoringAction 1445434389082 Direction.java RENAME getValue=>Direction getValue() METHOD
+CompilationAction 1445434438170 Coordinates.java
+RefactoringAction 1445434455699 Direction.java ADD short name FIELD
+RefactoringAction 1445434459213 Direction.java RENAME name=>char shortname/2 FIELD
+RefactoringAction 1445434460226 Direction.java RENAME shortname/2=>char shortname() METHOD
+CompilationAction 1445434470847 Coordinates.java
+CompilationAction 1445434564951 Coordinates.java
+FileOpenedAction 1445434615092 PlanetExplorer.java 1591 4 3 0
